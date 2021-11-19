@@ -6,13 +6,13 @@
   --soft-magenta: hsl(300, 69%, 71%);
 }
 
-html {
-  height: 100vh;
-}
-
 body {
   font-family: 'Open sans';
   background-color: var(--violet);
+  background-image: src('images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0;
 }
     
 h1 {
@@ -20,10 +20,30 @@ h1 {
   font-weight: 600;
 }
 
-.attribution { 
-  font-size: 11px; text-align: center; 
- }
- 
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.btn-round {
+  color: var(--violet);
 }
+
+.btn-round:active,
+.btn-round:hover {
+  background-color: var(--soft-magenta) !important;
+  color: white;
+}
+
+.fa-brands {
+  width: 2.2em;
+  height: 2.2em;
+}
+
+.fa-brands:active,
+.fa-brands:hover {
+  border-color: var(--soft-magenta) !important;
+  color: var(--soft-magenta) !important;
+}
+
+/*
+@media (max-width: 375px) {
+  body {
+    background-image: url('images/bg-mobile.svg');
+  }
+}*/
