@@ -1,0 +1,29 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: 'Open sans';
+  background-color: var(--violet);
+}
+    
+h1 {
+  font-family: 'poppins';
+  font-weight: 600;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+ }
+ 
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
