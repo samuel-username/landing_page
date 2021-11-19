@@ -30,8 +30,8 @@ h1 {
 }
 
 .fa-brands {
-  width: 2.2em;
-  height: 2.2em;
+  width: 2.3em;
+  height: 2.3em;
 }
 
 .fa-brands:active,
@@ -44,5 +44,9 @@ h1 {
 @media (max-width: 375px) {
   body {
     background-image: url('../images/bg-mobile.svg');
+  }
+  
+  .btn-round {
+    width: 65%;
   }
 }
