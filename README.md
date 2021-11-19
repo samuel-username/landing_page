@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/samuel-username/landing_page)
-- Live Site URL: [Add live site URL here](https://samuel-username.github.io/landing_page/)
+- Solution URL: [Click here](https://github.com/samuel-username/landing_page)
+- Live Site URL: [Click her](https://samuel-username.github.io/landing_page/)
 
 ## My process
 
@@ -62,5 +62,4 @@ I want to continue with Bootstrap from now on, and get good at using it.
 
 ## Author
 
-- Website - [Add your name here](Samuel Adepoju)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/samuel-username)
+- Frontend Mentor - [samuel-username](https://www.frontendmentor.io/profile/samuel-username)
